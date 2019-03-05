@@ -2319,6 +2319,9 @@
 .fa-water:before{
   content: "\f2e1";
 }
+.fa-auditorium:before {
+  content: "\f2e2";
+}
 .sr-only {
   position: absolute;
   width: 1px;
