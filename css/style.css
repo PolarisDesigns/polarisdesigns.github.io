@@ -922,7 +922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info p {
   padding: 0 0 10px 50px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 22px;
   font-size: 14px;
 }
@@ -932,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 #contact .social-links a {
