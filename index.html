@@ -384,12 +384,34 @@
           <h3 class="section-title">Site Plan</h3>
           <p class="section-description">Adobe Illustrator Rendering of our Current Site Plan</p>
         </div>
-<div class="siema">
-  <div><img src="img\Site Plan.svg" alt="Site Plan"></div>
-  <div><img src="img\Technical Site Plan.svg" alt="Technical Site Plan"></div>
-</div>
-        
-      <!-- 
+
+      <div class="slideshow-container">
+      
+        <div class="mySlides ">
+          <div class="numbertext">1 / 2</div>
+          <img src="img\Technical Site Plan.svg" style="width:100%">
+          <div class="text">Technical Site Plan</div>
+        </div>
+      
+        <div class="mySlides ">
+          <div class="numbertext">2 / 2</div>
+          <img src="img\Site Plan.svg" style="width:100%">
+          <div class="text">Site Plan</div>
+        </div>
+    
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+
+        <!-- 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 filter-app">
             <a href="">
@@ -576,12 +598,10 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-<script src="lib\siema-1.5.1\dist\siema.min.js"></script>
-<script>
-  new Siema();
-</script>
-  
+ 
 
+
+  
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -597,6 +617,7 @@
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
+  <script src="js/carousel.js"></script>
   <script src="js/main.js"></script>
 
 </body>
